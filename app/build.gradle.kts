@@ -1,6 +1,7 @@
 plugins {
     id(GradlePlugin.application)
     id(GradlePlugin.kotlin)
+    id(GradlePlugin.kotlinApt)
 }
 
 android {
@@ -57,6 +58,10 @@ dependencies {
     implementation(Lib.composeUi)
     implementation(Lib.composeUiTool)
     implementation(Lib.material)
+
+    implementation(Lib.roomRuntime)
+    kapt(Lib.roomComplier)
+
     testImplementation(Lib.junit)
     androidTestImplementation("androidx.test.ext:junit:1.1.3")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.4.0")

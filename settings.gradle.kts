@@ -13,4 +13,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "HealerNote"
-include ':app'
+include(":app")

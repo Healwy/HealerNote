@@ -1,3 +1,7 @@
+/*
+ * Copyright 2022 Healer Corporation.
+ */
+
 plugins {
     id(GradlePlugin.application) version GradlePlugin.application_version apply false
     id(GradlePlugin.android) version GradlePlugin.android_version apply false

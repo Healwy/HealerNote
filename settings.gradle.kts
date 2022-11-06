@@ -1,3 +1,7 @@
+/*
+ * Copyright 2022 Healer Corporation.
+ */
+
 pluginManagement {
     repositories {
         google()

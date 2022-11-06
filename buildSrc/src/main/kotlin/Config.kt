@@ -1,3 +1,7 @@
+/*
+ * Copyright 2022 Healer Corporation.
+ */
+
 object BuildConfig {
     const val compileSdk = 33
     const val buildToolsVersion = "30.0.3"

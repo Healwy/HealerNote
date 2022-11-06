@@ -1,3 +1,7 @@
+/*
+ * Copyright 2022 Healer Corporation.
+ */
+
 plugins {
     id(GradlePlugin.application)
     id(GradlePlugin.kotlin)

@@ -1,3 +1,7 @@
+<!--
+  ~ Copyright 2022 Healer Corporation.
+  -->
+
 <resources>
     <string name="app_name">HealerNote</string>
 </resources>

@@ -1,3 +1,7 @@
+/*
+ * Copyright 2022 Healer Corporation.
+ */
+
 package com.xuniyishifanchen.healernote
 
 import android.os.Bundle

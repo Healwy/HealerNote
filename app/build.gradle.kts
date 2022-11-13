@@ -6,6 +6,7 @@ plugins {
     id(GradlePlugin.application)
     id(GradlePlugin.kotlin)
     id(GradlePlugin.kotlinApt)
+    id(GradlePlugin.hilt)
 }
 
 android {
@@ -61,10 +62,19 @@ dependencies {
     implementation(Lib.activityCompose)
     implementation(Lib.composeUi)
     implementation(Lib.composeUiTool)
+    implementation(Lib.composeNavigation)
+    implementation(Lib.composeIcons)
+    implementation(Lib.composeHiltNavigation)
+    implementation(Lib.composeLifecycle)
     implementation(Lib.material)
 
     implementation(Lib.roomRuntime)
+    implementation(Lib.roomKtx)
     kapt(Lib.roomComplier)
+
+    implementation(Lib.hilt)
+    kapt(Lib.hiltComplier)
+    implementation("androidx.hilt:hilt-navigation-compose:1.0.0-alpha03")
 
     testImplementation(Lib.junit)
     androidTestImplementation("androidx.test.ext:junit:1.1.3")
